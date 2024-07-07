@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="All Test Suite">
+    <test verbose="2" preserve-order="true" name="C:/Users/power&#32;link/Desktop/Workspace/a.nurul">
+        <parameter name="browser" value="chrome"/>
+        <classes>
+            <class name="tests.UserInterfaceTest">
+                <methods>
+                    <include name="testCaseOne"/>
+                    <include name="testCaseTwo"/>
+                    <include name="testCaseThree"/>
+                    <include name="testCaseFour"/>
+                </methods>
+            </class>
+        </classes>
+    </test>
+</suite>
